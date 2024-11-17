@@ -1,28 +1,91 @@
-# awesome-list [![Awesome Lists](https://srv-cdn.himpfen.io/badges/awesome-lists/awesomelists-flat.svg)](https://github.com/awesomelistsio/awesome)
+# Awesome FFmpeg [![Awesome Lists](https://srv-cdn.himpfen.io/badges/awesome-lists/awesomelists-flat.svg)](https://github.com/awesomelistsio/awesome)
 
 [![Buy Me A Coffee](https://srv-cdn.himpfen.io/badges/buymeacoffee/buymeacoffee-flat.svg)](https://tinyurl.com/2h9aktmd) &nbsp; [![Ko-Fi](https://srv-cdn.himpfen.io/badges/kofi/kofi-flat.svg)](https://tinyurl.com/d4xnrptz) &nbsp; [![PayPal](https://srv-cdn.himpfen.io/badges/paypal/paypal-flat.svg)](https://tinyurl.com/mr22naua) &nbsp; [![Stripe](https://srv-cdn.himpfen.io/badges/stripe/stripe-flat.svg)](https://tinyurl.com/e8ymxdw3)
 
-> A curated list of resources for
+> A curated list of awesome tools, libraries, guides, and resources for FFmpeg, a complete, cross-platform solution to record, convert, and stream audio and video.
 
 ## Contents
 
-- [Section](#section)
-- [Another Section](#another-section)
+- [Libraries and Wrappers](#libraries-and-wrappers)
+- [GUI Tools](#gui-tools)
+- [Plugins and Extensions](#plugins-and-extensions)
+- [Encoding and Conversion](#encoding-and-conversion)
+- [Streaming and Live Broadcasting](#streaming-and-live-broadcasting)
+- [Optimization and Performance](#optimization-and-performance)
+- [Learning Resources](#learning-resources)
+- [Books](#books)
+- [Community](#community)
+- [Contribute](#contribute)
+- [License](#license)
 
-## Section
+## Libraries and Wrappers
 
-About this section. Optional. Keep this short and focus on the list.
+- [PyFFmpeg](https://github.com/kkroening/ffmpeg-python) - A Python wrapper for FFmpeg, providing a fluent interface for composing FFmpeg command lines.
+- [FFmpeg.js](https://github.com/Kagami/ffmpeg.js) - FFmpeg compiled to JavaScript using Emscripten, allowing it to run in the browser.
+- [FFmpegKit](https://github.com/tanersener/ffmpeg-kit) - A complete, cross-platform wrapper around FFmpeg for Android, iOS, and other platforms.
+- [ffmpeg-go](https://github.com/u2takey/ffmpeg-go) - A Go wrapper for FFmpeg, enabling fluent API calls.
+- [node-fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) - A Node.js module for programmatically generating FFmpeg command lines.
 
-- [List item](http://example.com)
-- [List item](http://example.com)
+## GUI Tools
 
-## Another Section
+- [HandBrake](https://handbrake.fr/) - A popular open-source video transcoder with FFmpeg as its core engine.
+- [Shotcut](https://shotcut.org/) - A free, open-source, cross-platform video editor that uses FFmpeg for video processing.
+- [LosslessCut](https://github.com/mifi/lossless-cut) - A simple, cross-platform tool for lossless trimming and cutting of video and audio files using FFmpeg.
+- [Avidemux](http://avidemux.sourceforge.net/) - A video editor designed for simple cutting, filtering, and encoding tasks.
+- [FFmpeg Batch AV Converter](https://www.ffmpeg-batch.com/) - A GUI for FFmpeg focused on batch processing of video files.
 
-### Subsection
+## Plugins and Extensions
 
-- [List item](http://example.com)
-- [List item](http://example.com)
+- [FFmpeg Filters](https://ffmpeg.org/ffmpeg-filters.html) - A comprehensive list of FFmpeg’s built-in filters for audio and video processing.
+- [FFmpeg Plugin for OBS Studio](https://obsproject.com/) - An OBS plugin that allows for custom FFmpeg commands for advanced streaming configurations.
+- [GStreamer FFmpeg Plugin](https://gstreamer.freedesktop.org/modules/gst-libav.html) - Integrates FFmpeg codecs into the GStreamer multimedia framework.
+- [FFmpeg Input Plugin for Adobe Premiere](https://www.fnordware.com/AdobeFFmpeg/) - Adds support for FFmpeg codecs in Adobe Premiere Pro.
 
+## Encoding and Conversion
+
+- [FFmpeg Codecs Guide](https://ffmpeg.org/ffmpeg-codecs.html) - Official documentation on FFmpeg’s supported codecs.
+- [FFmpeg Encoding Tutorial](https://trac.ffmpeg.org/wiki/Encode/H.264) - A guide on encoding videos using the H.264 codec with FFmpeg.
+- [x264 and x265](https://www.videolan.org/developers/x264.html) - High-quality open-source codecs for H.264 and H.265 video compression, often used with FFmpeg.
+- [ffWorks](https://www.ffworks.net/) - A comprehensive GUI for FFmpeg that provides an easy-to-use interface for video encoding.
+- [MKVToolNix](https://mkvtoolnix.download/) - A toolset for creating, editing, and inspecting Matroska (MKV) files using FFmpeg.
+
+## Streaming and Live Broadcasting
+
+- [FFmpeg RTMP Streaming](https://trac.ffmpeg.org/wiki/StreamingGuide) - A guide on streaming to platforms like YouTube and Twitch using FFmpeg and the RTMP protocol.
+- [SRS (Simple Realtime Server)](https://github.com/ossrs/srs) - A simple, high-performance RTMP server that works well with FFmpeg for live streaming.
+- [NGINX with RTMP Module](https://github.com/arut/nginx-rtmp-module) - An NGINX module for streaming live video using RTMP, compatible with FFmpeg.
+- [OBS Studio](https://obsproject.com/) - Open-source software for video recording and live streaming, using FFmpeg for media encoding.
+- [ffmpeg-web](https://github.com/jplayer-js/ffmpeg-web) - A web-based interface for FFmpeg that supports streaming.
+
+## Optimization and Performance
+
+- [FFmpeg Optimization Guide](https://trac.ffmpeg.org/wiki/EncodingGuide) - Tips and best practices for optimizing FFmpeg performance and encoding settings.
+- [Hardware Acceleration](https://trac.ffmpeg.org/wiki/HWAccelIntro) - Guide to using hardware acceleration with FFmpeg (e.g., NVENC, VAAPI, and Intel Quick Sync).
+- [FFmpeg Multi-threading](https://ffmpeg.org/ffmpeg.html#Multi-threading) - Documentation on using FFmpeg’s multi-threading features for faster processing.
+- [FFmpeg with NVIDIA NVENC](https://developer.nvidia.com/ffmpeg-nvenc) - A guide to using NVIDIA’s NVENC hardware encoder with FFmpeg for faster video encoding.
+
+## Learning Resources
+
+- [FFmpeg Documentation](https://ffmpeg.org/documentation.html) - The official reference documentation for FFmpeg.
+- [FFmpeg Wiki](https://trac.ffmpeg.org/wiki) - A collection of tutorials, guides, and tips for using FFmpeg.
+- [Awesome FFmpeg Commands](https://github.com/amiaopensource/awesome-ffmpeg) - A collection of useful FFmpeg command-line examples.
+- [YouTube: FFmpeg Tutorials](https://www.youtube.com/results?search_query=ffmpeg+tutorial) - Video tutorials on using FFmpeg for various media tasks.
+- [FFmpeg Cheat Sheet](https://gist.github.com/) - Handy one-page guides with common FFmpeg command-line examples.
+
+## Books
+
+- *FFmpeg Basics* by Frantisek Korbel - A beginner’s guide to video processing with FFmpeg.
+- *Multimedia Programming with FFmpeg* by Wagner S. Cassimiro - A book covering advanced topics in media processing with FFmpeg.
+- *Mastering FFmpeg* by J. Salvador - A comprehensive guide on mastering FFmpeg for multimedia projects.
+- *The Definitive Guide to FFmpeg* by Nicholas Braun - A detailed guide to FFmpeg’s features and best practices.
+
+## Community
+
+- [FFmpeg Mailing Lists](https://ffmpeg.org/contact.html) - Official mailing lists for discussions and support.
+- [Stack Overflow: FFmpeg](https://stackoverflow.com/questions/tagged/ffmpeg) - A Q&A site for FFmpeg-related questions.
+- [Reddit: r/FFmpeg](https://www.reddit.com/r/ffmpeg/) - A subreddit for discussions and questions about FFmpeg.
+- [FFmpeg IRC Channel](https://ffmpeg.org/contact.html#IRCChannels) - Join the #ffmpeg IRC channel for real-time support.
+- [FFmpeg GitHub](https://github.com/FFmpeg/FFmpeg) - The official GitHub repository for FFmpeg.
 
 ## Contribute
 
