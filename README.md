@@ -25,6 +25,7 @@
 - [FFmpegKit](https://github.com/tanersener/ffmpeg-kit) - A complete, cross-platform wrapper around FFmpeg for Android, iOS, and other platforms.
 - [ffmpeg-go](https://github.com/u2takey/ffmpeg-go) - A Go wrapper for FFmpeg, enabling fluent API calls.
 - [node-fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) - A Node.js module for programmatically generating FFmpeg command lines.
+- [@profullstack/transcoder](https://www.npmjs.com/package/@profullstack/transcoder) - A lightweight Node.js module for transcoding videos to web-friendly MP4 format using FFmpeg. 
 
 ## GUI Tools
 
