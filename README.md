@@ -38,6 +38,7 @@
 - [LosslessCut](https://github.com/mifi/lossless-cut) - A simple, cross-platform tool for lossless trimming and cutting of video and audio files using FFmpeg.
 - [Avidemux](http://avidemux.sourceforge.net/) - A video editor designed for simple cutting, filtering, and encoding tasks.
 - [FFmpeg Batch AV Converter](https://www.ffmpeg-batch.com/) - A GUI for FFmpeg focused on batch processing of video files.
+- - [Remove audio from video](https://remove-audio.com) — Strip audio from video files entirely in your browser using FFmpeg.wasm. No uploads, no account. Batch up to 20 clips.
 
 ## Plugins and Extensions
 
