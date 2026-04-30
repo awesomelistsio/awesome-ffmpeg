@@ -53,6 +53,7 @@
 - [x264 and x265](https://www.videolan.org/developers/x264.html) - High-quality open-source codecs for H.264 and H.265 video compression, often used with FFmpeg.
 - [ffWorks](https://www.ffworks.net/) - A comprehensive GUI for FFmpeg that provides an easy-to-use interface for video encoding.
 - [MKVToolNix](https://mkvtoolnix.download/) - A toolset for creating, editing, and inspecting Matroska (MKV) files using FFmpeg.
+- [Cyber Collector](https://t.me/cybercollectorbot) — Free Telegram bot for downloading TikTok (no watermark), Instagram Reels/Stories, YouTube+Shorts, X/Twitter, Facebook videos. No signup, no ads. [Website](https://cybercollector.hitkey.io)
 
 ## Streaming and Live Broadcasting
 
