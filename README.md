@@ -33,6 +33,7 @@
 
 ## GUI Tools
 
+- [FrameShift](https://gaurox.dev/frameshift/) - A free, open-source Windows GUI for FFmpeg that adds media processing actions to the Explorer right-click menu.
 - [HandBrake](https://handbrake.fr/) - A popular open-source video transcoder with FFmpeg as its core engine.
 - [Shotcut](https://shotcut.org/) - A free, open-source, cross-platform video editor that uses FFmpeg for video processing.
 - [LosslessCut](https://github.com/mifi/lossless-cut) - A simple, cross-platform tool for lossless trimming and cutting of video and audio files using FFmpeg.
