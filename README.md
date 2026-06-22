@@ -33,12 +33,12 @@
 
 ## GUI Tools
 
-- [FrameShift](https://gaurox.dev/frameshift/) - A free, open-source Windows GUI for FFmpeg that adds media processing actions to the Explorer right-click menu.
-- [HandBrake](https://handbrake.fr/) - A popular open-source video transcoder with FFmpeg as its core engine.
-- [Shotcut](https://shotcut.org/) - A free, open-source, cross-platform video editor that uses FFmpeg for video processing.
-- [LosslessCut](https://github.com/mifi/lossless-cut) - A simple, cross-platform tool for lossless trimming and cutting of video and audio files using FFmpeg.
 - [Avidemux](http://avidemux.sourceforge.net/) - A video editor designed for simple cutting, filtering, and encoding tasks.
 - [FFmpeg Batch AV Converter](https://www.ffmpeg-batch.com/) - A GUI for FFmpeg focused on batch processing of video files.
+- [FrameShift](https://gaurox.dev/frameshift/) - Windows GUI for FFmpeg with Explorer integration for converting, compressing, trimming, and processing media files.
+- [HandBrake](https://handbrake.fr/) - A popular open-source video transcoder with FFmpeg as its core engine.
+- [LosslessCut](https://github.com/mifi/lossless-cut) - A simple, cross-platform tool for lossless trimming and cutting of video and audio files using FFmpeg.
+- [Shotcut](https://shotcut.org/) - A free, open-source, cross-platform video editor that uses FFmpeg for video processing.
 
 ## Plugins and Extensions
 
