@@ -54,6 +54,7 @@
 - [x264 and x265](https://www.videolan.org/developers/x264.html) - High-quality open-source codecs for H.264 and H.265 video compression, often used with FFmpeg.
 - [ffWorks](https://www.ffworks.net/) - A comprehensive GUI for FFmpeg that provides an easy-to-use interface for video encoding.
 - [MKVToolNix](https://mkvtoolnix.download/) - A toolset for creating, editing, and inspecting Matroska (MKV) files using FFmpeg.
+- [gottrix](https://gottrix.app/en/mkv-to-mp4) - Free browser-based audio/video converter built on ffmpeg.wasm, part of a larger 500+ tool client-side file-conversion suite. No uploads, works offline.
 
 ## Streaming and Live Broadcasting
 
