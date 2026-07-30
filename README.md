@@ -30,6 +30,7 @@
 - [FFmpegKit](https://github.com/tanersener/ffmpeg-kit) - A complete, cross-platform wrapper around FFmpeg for Android, iOS, and other platforms.
 - [ffmpeg-go](https://github.com/u2takey/ffmpeg-go) - A Go wrapper for FFmpeg, enabling fluent API calls.
 - [node-fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) - A Node.js module for programmatically generating FFmpeg command lines.
+- [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) - An agent-facing TypeScript toolkit that orchestrates FFmpeg for video composition, editing, transcription, and deterministic delivery checks through CLI and MCP interfaces.
 
 ## GUI Tools
 
